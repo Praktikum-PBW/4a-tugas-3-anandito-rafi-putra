@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .belakang {
+            background-color: cornflowerblue;
+            width: 500px;
+            height: 500px;
+            margin: auto;
+            border-radius: 50px;
+            box-shadow: inset 0px 0px 5px 5px powderblue;
+        }
+
+        .awal {
+            margin-left: 20px;
+        }
+
+        .tombol {
+            margin-left: 20px;
+        }
+
+        .hasil {
+            margin-left: 25px;
+        }
+
+        .bt {
+            width: 70px;
+            height: 27px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="belakang">
+        <div class="awal">
+
+            <h1 style="text-align: center; margin-top:  100px; line-height: 50px;">KALKULATOR</h1>
+            <h4>INPUT ANGKA</h4>
+            <label for="pertama">Masukkan Angka Pertama</label>
+            <input type="text" name="pertama" id="pertama" style="margin-left: 26px;">
+            <br>
+            <br>
+            <label for="kedua">Masukkan Angka Kedua</label>
+            <input type="text" name="kedua" id="kedua" style="margin-left: 35px;">
+        </div>
+        <br>
+        <div class="tombol">
+            <H4>PILIH OPERATOR</H4>
+            <input type="button" value="Tambah" name="tambah" id="tambah" class="bt" style="margin-right: 10px;">
+            <input type="button" value="Kurang" name="tambah" id="kurang" class="bt" style="margin-right: 10px;">
+            <input type="button" value="Kali" name="tambah" id="kali" class="bt" style="margin-right: 10px;">
+            <br>
+            <br>
+            <input type="button" value="Bagi" name="tambah" id="bagi" class="bt" style="margin-right: 10px;">
+            <input type="button" value="Modulus" name="tambah" id="modulus" class="bt" style="margin-right: 10px;">
+            <input type="button" value="Clear" name="tambah" id="clear" class="bt" style="margin-right: 10px;">
+        </div>
+        <br>
+        <br>
+        <div class="hasil">
+            <h4>HASIL PENGHITUNGAN</h4>
+            <label for="hasil" style="margin-left: 5px;">Hasil</label>
+            <input type="text" name="hasil" id="hasil" style="margin-left: 159px;">
+
+
+
+        </div>
+
+    </div>
+
+    <script src="kakulator.js"></script>
+</body>
+
+</html>
